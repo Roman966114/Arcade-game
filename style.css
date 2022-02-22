@@ -3,8 +3,10 @@ body{
 }
 
 #wrapper{
+  position: relative;
   min-width: 100%;
-   position: relative;
+  width: auto;
+   
 }
 canvas{
    cursor: none;
