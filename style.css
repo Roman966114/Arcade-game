@@ -13,7 +13,7 @@ canvas:focus {
 }
 .display{
    position: relative;
-   width: 600px;
+   min-width: 600px;
    margin: 0 auto;
 }
 .result {
