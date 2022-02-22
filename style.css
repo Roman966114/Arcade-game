@@ -3,6 +3,7 @@ body{
 }
 
 #wrapper{
+  min-width: 100%;
    position: relative;
 }
 canvas{
@@ -13,7 +14,7 @@ canvas:focus {
 }
 .display{
    position: relative;
-   min-width: 600px;
+   width: 600px;
    margin: 0 auto;
 }
 .result {
