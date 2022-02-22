@@ -1,0 +1,71 @@
+body{
+  background: midnightblue;
+}
+
+#wrapper{
+   position: relative;
+}
+canvas{
+   cursor: none;
+}
+canvas:focus {
+    outline: none;
+}
+.display{
+   position: relative;
+   width: 600px;
+   margin: 0 auto;
+}
+.result {
+   font-size: 32px;
+   color: whitesmoke;
+}
+.life {
+   font-size: 32px;
+   color: whitesmoke;
+   margin-left: 10px;
+}
+#resultscore{
+   display: inline-block;
+   font-size: 32px;
+   width: 60px;
+   color: rgb(22, 201, 22);
+}
+.lifescore{
+   font-size: 32px;
+   color: rgb(22, 201, 22);
+}
+.lifescore::after {
+   display: inline-block;
+   position: relative;
+   content: "";
+   top: 5px;
+   height: 30px;
+   width: 30px;
+   background-image: url('img/spaceship.png');
+   background-size: 30px 30px;
+ }
+.over{
+   display: none;
+   position: absolute;
+   font-weight: 700;
+   top: 280px;
+   left: 200px;
+   font-size: 32px;
+   color: rgb(210, 33, 33);
+}
+.reset{
+   font-size: 16px; 
+   background-color: aliceblue;
+   text-align: center;
+   margin-left: 150px;
+   padding: 5px;
+   width: 60px;
+   height: 30px;
+}
+.panel{
+   position: absolute;
+   top: 600px;
+   left: 10px;
+   z-index: 5;
+}
